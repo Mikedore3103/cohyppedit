@@ -90,6 +90,16 @@ h3,
     height: 26.4px;
 }
 
+
+h4,
+.h4 {
+    font-family: "Archivo Black", arial;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
 .header{
     display: inline-block;
     min-height: 120vh;
@@ -206,14 +216,19 @@ nav img{
 
 .text-block{
     width: 50%;
-    position: absolute;
-    top: 450px;
-    left: 500px;
+    position: relative;
+    top: 160px;
+    left: 600px;
     transform: translate(-50%, -50%);
     text-align: left;
     color: white;
 }
 
+.header-text{
+    position: absolute;
+    top: 70px;
+    color: #fff;
+}
 
 .image-block img {
     max-width: 20%;
@@ -253,6 +268,8 @@ nav img{
 
 .hero-para{
     box-sizing: border-box;
+    position: absolute;
+    top: 300px;
     display: block;
     width: 85%;
     letter-spacing: 0px;
@@ -269,7 +286,10 @@ nav img{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    position: absolute;
+    top: 370px;
 }
+
 
 .hype-feature-logo-section .container{
     width: 100%;
@@ -295,7 +315,7 @@ nav img{
     color: white;
     font-family: inter, Arial;
     position: absolute;
-    top: 100vh;
+    top: 102vh;
     right: 50%;
     font-size: 14px;
 }
@@ -304,7 +324,7 @@ nav img{
 .logos{
     position: absolute;
     width: 100%;
-    top: 730px;
+    top: 780px;
     overflow: hidden;
     padding: 60px 0;
     background: none;
@@ -334,7 +354,7 @@ nav img{
 }
 
 .featured-logo-slide img{
-    height: 60px;
+    height: 40px;
     margin: 0 40px;
 }
 
@@ -646,3 +666,94 @@ nav img{
         transform: translate(-50%, -50%);
     }
 }
+
+
+.footer{
+    padding: 80px  12% 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    height: 50vh;
+    background-color: black;
+    margin: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.sec-1 img{
+    width: 120px;
+    height:auto;
+}
+
+.sec-1 p{
+    max-width: 330px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    margin: 18px 0;
+}
+
+.footer-icon i{
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all .42s;
+}
+
+.footer-icon .active i{
+    background: rgb(18, 219, 125);
+}
+
+.footer-icon i:hover{
+    background: rgb(18, 219, 125);
+    transform: translateY(-5px);
+
+}
+
+.footer.h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: bottom 20px;
+
+}
+
+.footer li a{
+    color: #ddd9d9;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    transition: all .42;
+    text-decoration: none;
+    font-family: arial;
+    
+
+}
+
+.footer ul{
+    list-style-type: none;
+}
+
+.footer li a:hover{
+     color: rgb(18, 219, 125);
+}
+
+.footer li{
+    transition: all .42s;
+}
+
+.footer li:hover{
+    transform: translateX(5px);
+}
+
+
+   
